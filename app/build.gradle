@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         resValue "string", "manifest_package_id", "net.gsantner.markor"
-        applicationId "net.gsantner.markor"
+        applicationId "com.boskbennet.biblioteka"
         versionName "2026.10.0"
         versionCode 164
 
@@ -40,7 +40,7 @@ android {
     flavorDimensions = ["default"]
     productFlavors {
         flavorAtest {
-            applicationId "net.gsantner.markor_test"
+            applicationId "com.boskbennet.biblioteka_test"
             versionCode = Integer.parseInt(new Date().format('yyMMdd'))
             versionName = defaultConfig.versionName + "-" + new Date().format('HHmm')
             buildConfigField "boolean", "IS_TEST_BUILD", "true"

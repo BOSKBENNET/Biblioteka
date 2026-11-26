@@ -101,8 +101,7 @@ public class AppSettings extends GsSharedPreferencesPropertyBackend {
     public File getDefaultNotebookFile() {
         return GsFileUtils.join(
                 Environment.getExternalStorageDirectory(),
-                "Documents",
-                rstr(R.string.app_name).toLowerCase(Locale.ROOT));
+                "Библиотека Claude");
     }
 
     public File getQuickNoteFile() {
